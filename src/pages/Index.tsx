@@ -10,6 +10,16 @@ import { AwardsSection } from "@/components/sections/AwardsSection";
 import { ContactSection } from "@/components/sections/ContactSection";
 import portfolioDataImport from "@/data/portfolio.json";
 
+// Awards 타입 정의
+interface Award {
+  id: string;
+  title: string;
+  organization: string;
+  date: string;
+  description: string;
+  category: string;
+}
+
 const Index = () => {
   const navigate = useNavigate();
   const [clickCount, setClickCount] = useState(0);
@@ -50,7 +60,7 @@ const Index = () => {
       <ExperienceSection data={portfolioData.experiences} />
       <SkillsSection data={portfolioData.skills} />
       <ProjectsSection data={portfolioData.projects} />
-      <AwardsSection data={portfolioData.awards as any} />
+      <AwardsSection data={portfolioData.awards as Award[]} />
       <ContactSection data={portfolioData.contact} />
     </div>
   );

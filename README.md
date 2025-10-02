@@ -62,7 +62,22 @@ This project is built with:
 
 ## How can I deploy this project?
 
-Simply open [Lovable](https://lovable.dev/projects/1f7eda5d-585d-4de4-b035-77c2783e0f85) and click on Share -> Publish.
+### GitHub Pages 자동 배포
+
+이 프로젝트는 GitHub Actions를 통해 자동으로 GitHub Pages에 배포됩니다.
+
+**배포 설정 방법:**
+
+1. GitHub 저장소의 Settings → Pages로 이동
+2. Source를 "GitHub Actions"로 선택
+3. main 브랜치에 코드를 푸시하면 자동으로 배포됩니다
+
+**배포 URL:** `https://[사용자명].github.io/crafted-portfolio-sys/`
+
+### 수동 배포
+
+Lovable을 사용한 배포도 가능합니다:
+Simply open [Lovable](https://lovable.dev/projects/1f7eda5d-585d-4de4-b035-77c2783e0f85) and click on Share → Publish.
 
 ## Can I connect a custom domain to my Lovable project?
 

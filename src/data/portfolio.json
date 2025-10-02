@@ -1,174 +1,264 @@
 {
   "profile": {
-    "name": "개발자 이름",
-    "tagline": "혁신적인 웹 솔루션을 만드는 풀스택 개발자",
-    "bio": "사용자 중심의 웹 애플리케이션 개발에 열정을 가진 풀스택 개발자입니다. React, TypeScript, Node.js를 주력으로 하며, 최신 기술 트렌드를 빠르게 학습하고 실무에 적용하는 것을 즐깁니다. 클린 코드와 효율적인 아키텍처 설계를 통해 확장 가능한 솔루션을 만들어갑니다.",
+    "name": "신용호",
+    "tagline": "AI 영상 수익화 전문가",
+    "bio": "AI 기반 콘텐츠 제작 및 서비스 기획 전문가입니다. GPT, 영상 생성 AI, TTS 기술을 활용하여 혁신적인 콘텐츠를 제작하고 수익화 모델을 구축합니다. 3년간의 경험을 바탕으로 AI 기술과 비즈니스를 연결하는 실용적인 솔루션을 개발합니다.",
     "image": "/placeholder.svg",
     "kpis": [
       {
-        "label": "경력 연차",
-        "value": "5+",
+        "label": "AI 콘텐츠 경력",
+        "value": "3",
         "unit": "년"
       },
       {
-        "label": "프로젝트",
-        "value": "20+",
+        "label": "AI 프로젝트",
+        "value": "15+",
         "unit": "개"
       },
       {
-        "label": "참여 기업",
-        "value": "8",
-        "unit": "곳"
+        "label": "수익화 채널",
+        "value": "5+",
+        "unit": "개"
       }
     ]
   },
   "contact": {
-    "email": "your.email@example.com",
-    "phone": "+82 10-0000-0000",
+    "email": "yhoshing@gmail.com",
+    "phone": "010-2617-9652",
     "location": "서울, 대한민국",
     "links": {
-      "github": "https://github.com/yourusername",
-      "linkedin": "https://linkedin.com/in/yourprofile",
-      "website": "https://yourportfolio.com",
-      "kakao": "https://open.kakao.com/yourprofile"
+      "github": "https://github.com/yhoshing",
+      "website": "https://blog.naver.com/yhoshin",
+      "youtube": "https://youtube.com/channel/UC09S6yyUZYJRuVxBhqko4Rw",
+      "instagram": "https://instagram.com/yhoshing"
     }
   },
   "experiences": [
     {
       "id": "1",
-      "company": "현재 회사명",
-      "position": "현재 직책",
-      "period": "2023.01 - 현재",
-      "description": "주요 업무 및 역할 설명",
+      "company": "AI 영상 연구소",
+      "position": "개인 AI 콘텐츠 크리에이터 & 운영자",
+      "period": "2025.01 - 현재",
+      "description": "AI 기반 영상 콘텐츠 제작 및 수익화 모델 연구·개발",
       "achievements": [
-        "주요 성과 1 - 구체적인 결과와 함께",
-        "주요 성과 2 - 수치화된 개선 사항",
-        "주요 성과 3 - 기술적 기여도"
+        "YouTube 채널 'AI 영상 연구소' 운영 (TTS 기반 실화 콘텐츠 제작)",
+        "맞춤형 GPTs 개발 (부동산 GPT, 시니어용 자동 작가 GPT, 영상 프롬프트 GPT)",
+        "AI 서비스 기획/개발 부트캠프 참여 (2025.8~2026.2)",
+        "자동화 기반 콘텐츠 수익화 시스템 구축 (Hub & Spoke 전략)"
       ]
     },
     {
       "id": "2",
-      "company": "이전 회사명",
-      "position": "이전 직책",
-      "period": "2021.06 - 2022.12",
-      "description": "담당했던 주요 업무 내용",
+      "company": "AI 영상 연구소",
+      "position": "AI 콘텐츠 크리에이터 & 교육자",
+      "period": "2023.01 - 2024.12",
+      "description": "AI 영상 제작 전문 교육 수강 및 실전 콘텐츠 제작",
       "achievements": [
-        "프로젝트 성과 1",
-        "기술적 개선 사항",
-        "팀 기여도 및 협업 성과"
+        "유튜브 채널 'AI 영상 연구소' 런칭 및 브랜드 구축",
+        "AI 영상 전문가 과정, GPT 강사 과정 등 다양한 전문 교육 이수",
+        "TTS 기반 실화 콘텐츠 제작 및 전자책 출판 준비",
+        "GPT-4 활용 프로젝트 파일 구축으로 강의 기반 마련"
       ]
     },
     {
       "id": "3",
-      "company": "첫 회사명",
-      "position": "주니어 개발자",
-      "period": "2020.03 - 2021.05",
-      "description": "개발자로서의 첫 경험과 학습 과정",
+      "company": "개인 연구",
+      "position": "AI 도구 연구자 & 실험자",
+      "period": "2022.01 - 2022.12",
+      "description": "AI 도구 학습 및 콘텐츠 제작 파이프라인 연구",
       "achievements": [
-        "기초 기술 습득 및 적용",
-        "팀 프로젝트 참여 경험",
-        "지속적인 학습과 성장"
+        "ChatGPT, MidJourney, Runway, ElevenLabs 등 주요 AI 툴 마스터",
+        "GPT-3/4 활용 실험적 AI 스토리 대본 및 영상 제작",
+        "AI 영상 자동화 파이프라인 초안 설계 및 벤치마킹",
+        "AI 콘텐츠 제작의 기초 토대 구축"
       ]
     }
   ],
   "skills": [
     {
-      "category": "Frontend",
+      "category": "AI 영상 제작",
       "items": [
-        { "name": "React", "level": 95 },
-        { "name": "TypeScript", "level": 90 },
-        { "name": "Next.js", "level": 85 },
-        { "name": "Vue.js", "level": 70 },
-        { "name": "TailwindCSS", "level": 90 }
+        {
+          "name": "Runway",
+          "level": 90
+        },
+        {
+          "name": "Kling",
+          "level": 85
+        },
+        {
+          "name": "MidJourney",
+          "level": 92
+        },
+        {
+          "name": "Stable Diffusion",
+          "level": 80
+        },
+        {
+          "name": "Luma Dream Machine",
+          "level": 75
+        }
       ]
     },
     {
-      "category": "Backend",
+      "category": "AI 텍스트/음성",
       "items": [
-        { "name": "Node.js", "level": 85 },
-        { "name": "Express", "level": 80 },
-        { "name": "NestJS", "level": 75 },
-        { "name": "PostgreSQL", "level": 80 },
-        { "name": "MongoDB", "level": 70 }
+        {
+          "name": "ChatGPT",
+          "level": 95
+        },
+        {
+          "name": "Claude",
+          "level": 88
+        },
+        {
+          "name": "GPTs 제작",
+          "level": 90
+        },
+        {
+          "name": "ElevenLabs",
+          "level": 85
+        },
+        {
+          "name": "Typecast",
+          "level": 80
+        }
       ]
     },
     {
-      "category": "DevOps",
+      "category": "콘텐츠 제작",
       "items": [
-        { "name": "Docker", "level": 80 },
-        { "name": "AWS", "level": 75 },
-        { "name": "CI/CD", "level": 85 },
-        { "name": "Git", "level": 95 }
+        {
+          "name": "TTS 콘텐츠 제작",
+          "level": 95
+        },
+        {
+          "name": "스토리텔링",
+          "level": 88
+        },
+        {
+          "name": "영상 편집",
+          "level": 82
+        },
+        {
+          "name": "썸네일 디자인",
+          "level": 78
+        },
+        {
+          "name": "전자책 제작",
+          "level": 85
+        }
       ]
     },
     {
-      "category": "AI/ML",
+      "category": "비즈니스 전략",
       "items": [
-        { "name": "OpenAI API", "level": 80 },
-        { "name": "LangChain", "level": 70 },
-        { "name": "Python", "level": 65 }
+        {
+          "name": "수익화 모델링",
+          "level": 90
+        },
+        {
+          "name": "유튜브 채널 운영",
+          "level": 88
+        },
+        {
+          "name": "Hub & Spoke 전략",
+          "level": 92
+        },
+        {
+          "name": "강의 기획",
+          "level": 85
+        },
+        {
+          "name": "커뮤니티 운영",
+          "level": 80
+        }
       ]
     }
   ],
   "projects": [
     {
       "id": "1",
-      "title": "개인 포트폴리오 웹사이트",
-      "description": "React와 TypeScript로 구축한 반응형 포트폴리오 사이트",
+      "title": "AI 영상 연구소 유튜브 채널",
+      "description": "TTS 기반 실화 콘텐츠 제작 및 AI 영상 노하우 공유 채널",
       "image": "/placeholder.svg",
-      "tags": ["React", "TypeScript", "TailwindCSS", "Vite"],
+      "tags": [
+        "YouTube",
+        "TTS",
+        "AI 영상",
+        "Runway",
+        "ElevenLabs"
+      ],
       "contribution": 100,
-      "details": "개인 포트폴리오를 효과적으로 보여주기 위한 현대적인 웹사이트입니다. shadcn/ui 컴포넌트를 활용하여 일관성 있는 디자인을 구현했으며, GitHub Actions를 통한 자동 배포 시스템을 구축했습니다.",
+      "details": "AI 기술을 활용한 실화 기반 콘텐츠를 제작하는 유튜브 채널입니다. TTS 기술과 AI 영상 생성 도구를 조합하여 고품질 콘텐츠를 자동화 생산하며, AI 영상 제작 노하우를 커뮤니티와 공유합니다.",
       "results": [
-        "반응형 디자인으로 모든 디바이스 지원",
-        "GitHub Actions 자동 배포 구현",
-        "현대적이고 직관적인 UI/UX 제공"
+        "TTS 기반 실화 콘텐츠 시리즈 런칭",
+        "AI 영상 제작 노하우 콘텐츠로 전문성 인정",
+        "자동화 콘텐츠 제작 파이프라인 구축"
       ],
       "links": {
-        "github": "https://github.com/yourusername/portfolio",
-        "demo": "https://yourusername.github.io/portfolio"
+        "youtube": "https://youtube.com/channel/UC09S6yyUZYJRuVxBhqko4Rw",
+        "demo": "https://blog.naver.com/yhoshin"
       }
     },
     {
       "id": "2",
-      "title": "실시간 협업 화이트보드",
-      "description": "WebSocket을 활용한 실시간 다중 사용자 협업 도구",
+      "title": "맞춤형 GPTs 개발 프로젝트",
+      "description": "특정 도메인에 특화된 GPT 모델 개발 및 배포",
       "image": "/placeholder.svg",
-      "tags": ["React", "Socket.io", "Node.js", "Canvas API"],
+      "tags": [
+        "ChatGPT",
+        "GPTs",
+        "부동산",
+        "자동화",
+        "프롬프트 엔지니어링"
+      ],
       "contribution": 100,
-      "details": "여러 사용자가 동시에 화이트보드에 그림을 그리고 아이디어를 공유할 수 있는 협업 툴입니다. 실시간 동기화와 직관적인 UI로 원격 팀워크를 지원합니다.",
+      "details": "다양한 업계와 사용자 그룹을 위한 맞춤형 GPT를 개발했습니다. 부동산 전문 GPT, 시니어를 위한 자동 작가 GPT, 영상 프롬프트 생성 GPT 등을 제작하여 각 분야의 전문성과 사용자 편의성을 극대화했습니다.",
       "results": [
-        "동시 접속자 최대 100명 지원",
-        "지연시간 50ms 이하 달성",
-        "스타트업 10개 팀에서 사용 중"
+        "부동산 GPT로 업계 전문 상담 서비스 구현",
+        "시니어용 자동 작가 GPT로 접근성 향상",
+        "영상 프롬프트 GPT로 창작 효율성 증대"
       ],
       "links": {
-        "github": "https://github.com/example/whiteboard"
+        "demo": "https://blog.naver.com/yhoshin"
       }
     },
     {
       "id": "3",
-      "title": "이커머스 관리 대시보드",
-      "description": "상품, 주문, 고객 관리를 위한 통합 대시보드",
+      "title": "Hub & Spoke 자동화 수익 모델",
+      "description": "AI 콘텐츠 기반 다채널 수익화 자동화 시스템",
       "image": "/placeholder.svg",
-      "tags": ["Next.js", "PostgreSQL", "Prisma", "Chart.js"],
-      "contribution": 70,
-      "details": "온라인 쇼핑몰 운영자를 위한 올인원 관리 도구입니다. 직관적인 데이터 시각화와 강력한 필터링 기능을 제공합니다.",
+      "tags": [
+        "자동화",
+        "Hub & Spoke",
+        "YouTube",
+        "블로그",
+        "전자책"
+      ],
+      "contribution": 90,
+      "details": "하나의 핵심 콘텐츠를 중심으로 유튜브, 블로그, 쇼츠, 전자책 등 다양한 채널로 확산시키는 자동화 수익 모델입니다. AI 도구를 활용하여 콘텐츠 재가공과 배포를 자동화하여 효율적인 수익 창출을 실현합니다.",
       "results": [
-        "관리 업무 시간 60% 단축",
-        "실시간 매출 분석 기능",
-        "모바일 최적화로 어디서나 관리 가능"
+        "단일 콘텐츠로 5개 채널 동시 운영",
+        "콘텐츠 제작 시간 70% 단축",
+        "다채널 수익화로 안정적 수입 구조 구축"
       ],
       "links": {
-        "demo": "https://dashboard.example.com"
+        "youtube": "https://youtube.com/channel/UC09S6yyUZYJRuVxBhqko4Rw",
+        "demo": "https://blog.naver.com/yhoshin"
       }
     },
     {
       "id": "4",
-      "title": "개인 재무 관리 앱",
-      "description": "수입과 지출을 추적하고 예산을 관리하는 모바일 웹앱",
+      "title": "AI 강의 콘텐츠 개발 프로젝트",
+      "description": "AI 영상 제작 및 GPT 활용 강의 콘텐츠 기획·개발",
       "image": "/placeholder.svg",
-      "tags": ["React", "Firebase", "PWA", "Chart.js"],
+      "tags": [
+        "React",
+        "Firebase",
+        "PWA",
+        "Chart.js"
+      ],
       "contribution": 90,
       "details": "간편하게 가계부를 작성하고 소비 패턴을 분석할 수 있는 앱입니다. PWA로 개발되어 앱처럼 설치하여 사용할 수 있습니다.",
       "results": [

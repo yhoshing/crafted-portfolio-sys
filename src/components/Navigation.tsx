@@ -76,9 +76,12 @@ export const Navigation = ({ onLogoClick }: NavigationProps) => {
         <div className="flex items-center justify-between">
           <button
             onClick={onLogoClick}
-            className="text-2xl font-bold text-gradient hover:scale-105 transition-transform"
+            className="text-2xl font-bold text-gradient-animated hover:scale-105 transition-all duration-300 hover-lift"
           >
-            Portfolio
+            <span className="relative">
+              Portfolio
+              <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-primary transition-all duration-300 group-hover:w-full"></div>
+            </span>
           </button>
 
           {/* Desktop Navigation */}
@@ -88,18 +91,31 @@ export const Navigation = ({ onLogoClick }: NavigationProps) => {
                 key={section.id}
                 variant="ghost"
                 onClick={() => scrollToSection(section.id)}
-                className={activeSection === section.id ? "bg-muted" : ""}
+                className={`relative group transition-all duration-300 ${
+                  activeSection === section.id 
+                    ? "bg-primary/10 text-primary" 
+                    : "hover:bg-muted/50"
+                }`}
               >
-                {section.label}
+                <span className="relative">
+                  {section.label}
+                  <div className={`absolute -bottom-1 left-0 h-0.5 bg-gradient-primary transition-all duration-300 ${
+                    activeSection === section.id ? "w-full" : "w-0 group-hover:w-full"
+                  }`}></div>
+                </span>
               </Button>
             ))}
             <Button
               variant="ghost"
               size="icon"
               onClick={toggleTheme}
-              className="ml-2"
+              className="ml-2 hover-lift animate-float"
             >
-              {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
+              {isDark ? (
+                <Sun className="h-5 w-5 text-yellow-500 transition-all duration-300" />
+              ) : (
+                <Moon className="h-5 w-5 text-blue-500 transition-all duration-300" />
+              )}
             </Button>
           </div>
 

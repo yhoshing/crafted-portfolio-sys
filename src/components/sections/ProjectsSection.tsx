@@ -5,6 +5,7 @@ import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogDescription } f
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
+import { OptimizedImage } from "@/components/ui/optimized-image";
 
 interface Project {
   id: string;
@@ -39,35 +40,52 @@ export const ProjectsSection = ({ data }: ProjectsSectionProps) => {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 max-w-7xl mx-auto px-4 sm:px-0">
             {data.map((project, index) => (
               <Card
                 key={project.id}
-                className="glass-effect overflow-hidden cursor-pointer hover:scale-105 transition-all animate-fade-in-up group"
+                className="glass-effect overflow-hidden cursor-pointer hover-lift transition-all animate-fade-in-up group relative"
                 style={{ animationDelay: `${index * 100}ms` }}
                 onClick={() => setSelectedProject(project)}
               >
                 <div className="aspect-video bg-muted relative overflow-hidden">
-                  <img
+                  <OptimizedImage
                     src={project.image}
                     alt={project.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform"
                   />
                   <div className="absolute inset-0 bg-gradient-primary opacity-0 group-hover:opacity-20 transition-opacity"></div>
                 </div>
-                <div className="p-6 space-y-4">
-                  <h3 className="text-xl font-bold group-hover:text-primary transition-colors">
-                    {project.title}
-                  </h3>
-                  <p className="text-sm text-muted-foreground line-clamp-2">
+                <div className="p-4 sm:p-6 space-y-3 sm:space-y-4">
+                  <div className="flex items-start sm:items-center justify-between gap-2">
+                    <h3 className="text-lg sm:text-xl font-bold group-hover:text-gradient transition-all duration-300 leading-tight">
+                      {project.title}
+                    </h3>
+                    <div className="text-xs text-muted-foreground bg-muted/50 px-2 py-1 rounded-full flex-shrink-0">
+                      {project.contribution}%
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
                     {project.description}
                   </p>
                   <div className="flex flex-wrap gap-2">
-                    {project.tags.map((tag) => (
-                      <Badge key={tag} variant="secondary">
+                    {project.tags.slice(0, 3).map((tag) => (
+                      <Badge key={tag} variant="secondary" className="text-xs">
                         {tag}
                       </Badge>
                     ))}
+                    {project.tags.length > 3 && (
+                      <Badge variant="outline" className="text-xs">
+                        +{project.tags.length - 3}
+                      </Badge>
+                    )}
+                  </div>
+                  {/* 프로젝트 카드에 미묘한 진행률 표시 */}
+                  <div className="w-full bg-muted/30 rounded-full h-1 mt-4">
+                    <div 
+                      className="bg-gradient-primary h-1 rounded-full transition-all duration-1000 group-hover:animate-pulse"
+                      style={{ width: `${project.contribution}%` }}
+                    ></div>
                   </div>
                 </div>
               </Card>
@@ -87,10 +105,11 @@ export const ProjectsSection = ({ data }: ProjectsSectionProps) => {
 
               <div className="space-y-6">
                 <div className="aspect-video bg-muted rounded-lg overflow-hidden">
-                  <img
+                  <OptimizedImage
                     src={selectedProject.image}
                     alt={selectedProject.title}
                     className="w-full h-full object-cover"
+                    priority={true}
                   />
                 </div>
 

@@ -1,88 +1,57 @@
-# Welcome to your Lovable project
+# 신용호 | AI 영상 수익화 전문가
 
-## Project info
+## 🚀 포트폴리오 사이트
 
-**URL**: https://lovable.dev/projects/1f7eda5d-585d-4de4-b035-77c2783e0f85
+**배포 URL**: https://yhoshing.github.io/crafted-portfolio-sys/
 
-## How can I edit this code?
+## 📋 프로필
 
-There are several ways of editing your application.
+- **이름**: 신용호
+- **직업**: AI 영상 수익화 전문가
+- **경력**: 3년 (AI 콘텐츠 제작 및 서비스 기획)
+- **위치**: 서울, 대한민국
 
-**Use Lovable**
+## 🛠️ 주요 기술
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/1f7eda5d-585d-4de4-b035-77c2783e0f85) and start prompting.
+### AI 영상 제작
+- Runway, Kling, MidJourney, Stable Diffusion, Luma Dream Machine
 
-Changes made via Lovable will be committed automatically to this repo.
+### AI 텍스트/음성
+- ChatGPT, Claude, GPTs 제작, ElevenLabs, Typecast
 
-**Use your preferred IDE**
+### 콘텐츠 제작
+- TTS 콘텐츠 제작, 스토리텔링, 영상 편집, 전자책 제작
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 비즈니스 전략
+- 수익화 모델링, 유튜브 채널 운영, Hub & Spoke 전략
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎯 주요 프로젝트
 
-Follow these steps:
+1. **AI 영상 연구소 유튜브 채널**
+   - TTS 기반 실화 콘텐츠 제작
+   - AI 영상 노하우 공유
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+2. **맞춤형 GPTs 개발**
+   - 부동산 GPT, 시니어용 자동 작가 GPT
+   - 영상 프롬프트 생성 GPT
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+3. **Hub & Spoke 자동화 수익 모델**
+   - 다채널 수익화 자동화 시스템
+   - 유튜브, 블로그, 쇼츠, 전자책 연계
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 📞 연락처
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **이메일**: yhoshing@gmail.com
+- **전화**: 010-2617-9652
+- **GitHub**: https://github.com/yhoshing
+- **블로그**: https://blog.naver.com/yhoshin
+- **유튜브**: https://youtube.com/channel/UC09S6yyUZYJRuVxBhqko4Rw
+- **인스타그램**: https://instagram.com/yhoshing
 
-**Edit a file directly in GitHub**
+## 🚀 배포 상태
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+현재 GitHub Pages를 통한 자동 배포가 설정되어 있습니다.
 
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-### GitHub Pages 자동 배포
-
-이 프로젝트는 GitHub Actions를 통해 자동으로 GitHub Pages에 배포됩니다.
-
-**배포 설정 방법:**
-
-1. GitHub 저장소의 Settings → Pages로 이동
-2. Source를 "GitHub Actions"로 선택
-3. main 브랜치에 코드를 푸시하면 자동으로 배포됩니다
-
-**배포 URL:** `https://[사용자명].github.io/crafted-portfolio-sys/`
-
-### 수동 배포
-
-Lovable을 사용한 배포도 가능합니다:
-Simply open [Lovable](https://lovable.dev/projects/1f7eda5d-585d-4de4-b035-77c2783e0f85) and click on Share → Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+- **소스**: main 브랜치의 루트 디렉토리
+- **빌드 도구**: Vite + React + TypeScript
+- **스타일링**: Tailwind CSS + shadcn/ui
